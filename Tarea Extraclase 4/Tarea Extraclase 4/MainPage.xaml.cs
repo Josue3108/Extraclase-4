@@ -10,17 +10,25 @@ namespace Tarea_Extraclase_4
 {
     public partial class MainPage : ContentPage
     {
+        AATree<int, int> tree = new AATree<int, int>();
         public MainPage()
         {
             InitializeComponent();
+           
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-
+            var valor = double.Parse(Insertar.Text);
+            ;        
         }
 
         private void Button_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
         {
 
         }
