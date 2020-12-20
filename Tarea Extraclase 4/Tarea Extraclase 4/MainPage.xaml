@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea_Extraclase_4.MainPage">
+
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="CenterAndExpand">
+        <Label Text="Crear tu lista" FontSize="30"/>
+        <Entry Placeholder="Valor" x:Name=""/>
+        <Button Text="Ingresar"/>
+        <Entry Placeholder="Posicion"/>
+        <Button Text="Obtener"/>
+        <Entry Placeholder="Valor"/>
+        <Entry Placeholder="Posicion"/>
+        <Button Text="Modificar"/>
+    </StackLayout>
+
+</ContentPage>
