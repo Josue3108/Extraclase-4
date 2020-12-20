@@ -6,13 +6,13 @@
     <StackLayout HorizontalOptions="Center"
                  VerticalOptions="CenterAndExpand">
         <Label Text="Crear tu lista" FontSize="30"/>
-        <Entry Placeholder="Valor" x:Name=""/>
-        <Button Text="Ingresar"/>
-        <Entry Placeholder="Posicion"/>
-        <Button Text="Obtener"/>
-        <Entry Placeholder="Valor"/>
-        <Entry Placeholder="Posicion"/>
-        <Button Text="Modificar"/>
+        <Entry Placeholder="Valor" x:Name="Insertar"/>
+        <Button Text="Ingresar" Clicked="Button_Clicked"/>
+        <Entry Placeholder="Posicion" x:Name="Obtener"/>
+        <Button Text="Obtener" Clicked="Button_Clicked_1"/>
+        <Entry Placeholder="Valor" x:Name="Valor"/>
+        <Entry Placeholder="Posicion" x:Name="Posicion"/>
+        <Button Text="Modificar" Clicked="Button_Clicked_2"/>
     </StackLayout>
 
 </ContentPage>
